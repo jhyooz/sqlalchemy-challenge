@@ -23,8 +23,10 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
 4. Load the query results into a Pandas DataFrame. Explicitly set the column names. 
 5. Sort the DataFrame values by "date". 
 6. Plot the results by using the DataFrame `plot` method, as the following image shows:
-![](ReadMe%20Images/01%20precipitation.jpg)
-7. Use Pandas to print the summary statistics for the precipitation data.
+
+    ![](ReadMe%20Images/01%20precipitation.jpg)
+
+8. Use Pandas to print the summary statistics for the precipitation data.
 
 ### Station Analysis
 1. Design a query to calculate the total number of stations in the dataset. 
@@ -47,7 +49,7 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
     * Query the previous 12 months of TOBS data for that station. 
     * Plot the results as a histogram with `bins=12`, as the following image shows:
    
-    ![](ReadMe Images/02 station histogram.jpg)
+    ![](/ReadMe Images/02 station histogram.jpg)
 
 5. Close your session.
 
